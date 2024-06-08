@@ -16,10 +16,10 @@ jobs:
         include:
           - context: ./mock-alto-bundler
             dockerfile: ./mock-alto-bundler/Dockerfile
-            image: ghcr.io/pimlicolabs/mock-alto-bundler
+            image: ghcr.io/avenbreaks/mock-alto-bundler
           - context: ./mock-verifying-paymaster
             dockerfile: ./mock-verifying-paymaster/Dockerfile
-            image: ghcr.io/pimlicolabs/mock-verifying-paymaster
+            image: ghcr.io/avenbreaks/mock-verifying-paymaster
     permissions:
       contents: read
       packages: write
